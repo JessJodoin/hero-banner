@@ -26,7 +26,6 @@ body {
 
 .banner-content {
   max-width: 50em;
-  max-height: 500px;
   width: 100%;
   position: absolute;
   bottom: 0;
@@ -48,5 +47,6 @@ body {
 .banner-body {
   font-size: 2rem;
   font-style: italic;
-  margin-top: .5em;
+  padding-top: .5em;
+  margin: 0 0 .5em;
 }
