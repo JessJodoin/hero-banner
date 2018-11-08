@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
+  line-height: 1.4;
 }
 
 *, *::before, *::after {
@@ -18,8 +19,9 @@ body {
 
 .banner {
   max-height: 500px;
-  position: relative;
   overflow: hidden;
+
+  position: relative;
 }
 
 .banner-content {
@@ -35,7 +37,7 @@ body {
 }
 
 .banner-title {
-  margin: 0;
+  display: inline;
   font-size: 4rem;
 
   background-color: rgba(0, 0, 0, .5);
@@ -45,4 +47,5 @@ body {
 .banner-body {
   font-size: 2rem;
   font-style: italic;
+  margin-top: .5em;
 }
